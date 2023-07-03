@@ -2,6 +2,8 @@
 iptables -A INPUT -i docker0 -j ACCEPT
 # CONFIG FOR KALI LINUX
 apt update && apt upgrade && apt install novnc x11vnc tigervnc-standalone-server dbus-x11 python-numpy python3-numpy -y
+# START DBUS
+dbus-launch
 # START VNCSERVER
 vncserver
 # START NOVNC
