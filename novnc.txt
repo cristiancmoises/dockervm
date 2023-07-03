@@ -15,3 +15,5 @@ vncserver
 # ACESS VIA BROWSER
 CONTAINER_IP:8081/vnc.html
 # THAT'S ALL :)
+# FIX SOME HOSTNAME BUGS
+echo $(hostname -I | cut -d\  -f1) $(hostname) | sudo tee -a /etc/hosts
