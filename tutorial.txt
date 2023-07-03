@@ -1,0 +1,12 @@
+# ACCESS THE SYSTEM IN THE CONTAINER
+docker run -it IMAGE_ID_HERE /bin/bash
+# START ALL STOPPED CONTAINERS
+ docker start $(docker ps -a -q --filter "status=exited")
+# RUN THE LAST STOPPED CONTAINER:
+ docker start -a -i 'docker ps -q -l'
+# LIST ALL IMAGES
+ docker images
+# LIST ALL CONTAINERS
+ docker ps -a
+# RE-ACCESS THE SYSTEMS
+ docker exec -it CONTAINER_ID_HERE /bin/bash
