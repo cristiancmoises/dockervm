@@ -1,3 +1,5 @@
+# CONFIGURE A PASSWORD FOR ROOT ON KALI
+passwd
 # FIREWALL - HOST CONFIG
 iptables -A INPUT -i docker0 -j ACCEPT
 # CONFIG FOR KALI LINUX
@@ -10,3 +12,4 @@ vncserver
 /usr/share/novnc/utils/novnc_proxy --listen 8081 --vnc localhost:5900
 # ACESS VIA BROWSER
 CONTAINER_IP:8081/vnc.html
+# THAT'S ALL :)
