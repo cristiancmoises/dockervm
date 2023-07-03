@@ -1,5 +1,5 @@
 # GRAPHICAL INTERFACE
-apt install xfce4 xorg 
+apt install xfce-desktop xorg 
 # CONFIGURE A PASSWORD FOR ROOT ON KALI
 passwd
 # FIREWALL - HOST CONFIG
