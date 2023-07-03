@@ -1,0 +1,10 @@
+# FIREWALL - HOST CONFIG
+iptables -A INPUT -i docker0 -j ACCEPT
+# CONFIG FOR KALI LINUX
+apt update && apt upgrade && apt install novnc x11vnc tigervnc-standalone-server dbus-x11 python-numpy python3-numpy -y
+# START VNCSERVER
+vncserver
+# START NOVNC
+/usr/share/novnc/utils/novnc_proxy --listen 8081 --vnc localhost:5900
+# ACESS VIA BROWSER
+CONTAINER_IP:8081/vnc.html
