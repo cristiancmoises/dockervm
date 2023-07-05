@@ -5,7 +5,10 @@ passwd
 # FIREWALL - HOST CONFIG
 iptables -A INPUT -i docker0 -j ACCEPT
 # CONFIG FOR KALI LINUX
-apt update && apt upgrade && apt install novnc x11vnc tigervnc-standalone-server dbus-x11 python-numpy python3-numpy -y
+apt update && apt upgrade && apt install novnc x11vnc tigervnc-standalone-server dbus-x11 python-py python3-pip -y
+# NUMPY INSTALL
+user > pip install numpy
+user > pip3 install numpy
 # START DBUS
 dbus-launch
 # START VNCSERVER
