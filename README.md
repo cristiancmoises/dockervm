@@ -18,4 +18,4 @@ Just some docker commands to use docker like VmWare/Virtualbox
        
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cristiancmoises/torando&type=Date)](https://star-history.com/#cristiancmoises/torando&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=cristiancmoises/torando&type=Date)](https://star-history.com/#cristiancmoises/dockervm&Date)
