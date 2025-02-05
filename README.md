@@ -1,4 +1,5 @@
 # DOCKERVM
+[![DOI](https://zenodo.org/badge/661488540.svg)](https://doi.org/10.5281/zenodo.14810062)
 Just some docker commands to use docker like VmWare/Virtualbox
 
 ![image](https://github.com/cristiancmoises/dockervm/assets/86272521/ab87b45c-4139-4f58-b0da-04811fba3a46)
